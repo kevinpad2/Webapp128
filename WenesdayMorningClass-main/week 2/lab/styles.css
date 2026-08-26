@@ -1,0 +1,22 @@
+body{
+    background-color: aqua;
+}
+
+h1{
+    text-align: center;
+    color: #ff00dd;
+    
+}
+
+section{
+
+    font-family: cursive;
+
+}
+
+img{
+    
+    border: solid 4px red ;
+    width: 500px;
+
+}
