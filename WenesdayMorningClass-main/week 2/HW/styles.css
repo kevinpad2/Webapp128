@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(111, 0, 185);
+}
+
+h1{
+    text-align: center;
+    color: #00f7ff;
+    
+}
+
+section{
+
+    font-family: cursive;
+
+}
+
+img{
+    
+    border: solid 4px red ;
+    width: 500px;
+
+}
