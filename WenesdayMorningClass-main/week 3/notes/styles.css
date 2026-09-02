@@ -1,0 +1,80 @@
+body{
+    background-color: lightblue
+}
+
+/* Problem: what if you want to style multiple elements the same way? 
+/*Our solution are clases and IDs 
+
+/*clases are used for multiple elememnts
+Id's are used once one and done*/
+
+/*classes start with a .classname*/ 
+
+.highlight{
+    color: red;
+    font-weight: bold;
+
+
+
+}
+
+/*ids strat with a #Idname*/ 
+/* Ids are only used once they are meant to be unique8*/ 
+
+#main-header{
+
+
+    text-align: center;
+    font-size: 32px;
+}
+
+
+/*
+everything made in css is a box each box has layers:
+1. Content: text, image, whatever is inside
+
+2. Padding: space between content and the border 
+
+3. border: the line are the element 
+
+4. Margin space between this element and other elements 
+
+
+|<--- Margin --->| [ Border [ Padding [ Content ] Padding ] Border ] |<--- Margin --->|
+use margin to seperate elements apart, and padding to give breathing room inside the element
+
+*/
+
+p{
+    margin: 20px,;  /* Space outside*/
+    padding: 10px;  /* Space inside*/
+    border:2px dashed red; /* Visiable outline*/
+
+}
+
+
+/* LInks can change style depending on their state:: after 
+
+a:link>> default unvisited link 
+
+a:visited>> link the user has already clicked 
+
+a:hover>> when the mouse hovers over it 
+
+a:active>> when the link is being clicked */
+
+a:link{
+    color: pink;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+
+    
+}
+
+
+.list

@@ -1,22 +1,53 @@
+
+
+
+/* Changes the text size and color used mmostly for header*/
+.highlight{
+    color: pink;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+/* changes the color and text sixe of text when i use this class */
+
+.section-box{
+    color: darkblue;
+    font-weight: lighter;
+    font-size: 19px;
+}
+
+/* changes the font for the body */
 body{
-    background-color: aqua;
+    background-color: rgb(211, 129, 129);
+
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
-    text-align: center;
-    color: #ff00dd;
-    
+/* ID for my list where it changes the color and size as well as centers it */
+#list{
+
+    color: red;
+    font-size: 25px;
+    display: flex;
+    justify-content: center; /* centers the list and text not just text*/
+  
 }
 
-section{
-
-    font-family: cursive;
+p{
+    margin: 20px,;  /* Space outside*/
+    padding: 10px;  /* Space inside*/
+    border:2px dashed red; /* Visiable outline*/
 
 }
-
+/* gives a border to my image and a max width*/
 img{
-    
-    border: solid 4px red ;
     width: 500px;
 
+    border: 10px solid black;
+}
+
+/* when you hover over the link it will change pink and make it larger */
+a:hover{
+    color: hotpink;
+    font-size: x-large;
 }
