@@ -1,15 +1,15 @@
 body{
-    background-color: rgb(111, 0, 185);
+    background-color: rgb(2, 0, 3);
 }
 
 h1{
     text-align: center;
-    color: #00f7ff;
+    color: #ff0000;
     
 }
 
 section{
-
+color: darkgreen;
     font-family: cursive;
 
 }
@@ -19,4 +19,35 @@ img{
     border: solid 4px red ;
     width: 500px;
 
+}
+
+a{
+color: deeppink;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+
+    color: aqua ;
+}
+
+nav {
+
+    text-align: center;
+}
+
+footer {
+    text-align-last: left;
+
+    color: chartreuse;
+}
+
+table{
+
+    color: aquamarine;
+}
+
+ul{
+
+
+    color: blueviolet;
 }
