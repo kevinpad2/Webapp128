@@ -1,0 +1,87 @@
+
+
+/* ID for my header of page */
+#h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    color: aqua;
+    text-align: center;
+}
+/* class for my general text */
+.section{
+
+    color: blueviolet;
+}
+
+
+/*  creates the background color and font*/
+body{
+     background-color: rgb(0, 0, 0);
+
+    font-family:'Times New Roman', Times, serif
+}
+/* makes the image certain width and height */
+img{
+    
+    width: 750px;
+    height: 550px;
+}
+/* Class to center my image */
+.center_img{
+    display: flex;
+    justify-content: center;
+
+}
+/* ID for my Foot to stay at the bottom of page */
+#footer{
+    position: fixed;
+    bottom: 0;
+     color: cyan;
+    font-family: cursive;
+    font-size: small
+}
+/* class to space them out and easy for smaller screens */
+.container{
+    display: flex;
+    justify-content:space-between
+}
+
+
+/* class for the box height and width and ext */
+.nav{ 
+    width: 250px;
+    height: 150px;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+a:hover {
+        color: rgb(228, 228, 12);
+    
+    }
+
+
+/*  the diffrent color of boxes around the link*/
+#nav1{
+
+    background-color: rgb(43, 255, 0);
+}
+
+#nav2{
+
+    background-color: rgb(208, 255, 0);
+}
+
+#nav3{
+
+    background-color: rgb(255, 38, 0);
+}
+#nav4{
+
+    background-color: rgb(0, 195, 255);
+}
+#nav5{
+
+    background-color: rgb(255, 166, 0);
+}
