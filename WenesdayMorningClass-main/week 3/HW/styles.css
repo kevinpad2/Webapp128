@@ -1,0 +1,60 @@
+/* Changes the text size and color used mostly for header*/
+.highlight{
+    color: rgb(116, 4, 30);
+    font-weight: bolder;
+    font-size: 55px;
+    text-align: center;
+}
+
+/* changes the font for the body and backgroud color */
+body{
+    background-color: rgb(6, 0, 0);
+
+    font-family:'Times New Roman', Times, serif
+}
+
+/* changes the color and text sixe of text (mostly for main text not header) */
+.section-box{
+    color: rgb(12, 197, 98);
+    font-weight: lighter;
+    font-size: 19px;
+}
+
+
+/* This class is the templet for all my links
+In addition to this I added NAV to my favorite links
+*/
+.nav-item {
+    a:hover {
+        color: rgb(252, 252, 249);
+    font-size: xx-large;
+    }
+.nav-item    
+    a:link{
+        color: pink;
+}   
+.nav-item
+        a:visited{
+    color: rgb(204, 0, 255);
+}
+
+}
+/* Using this for text in tables and list*/
+.box {
+
+    font-size: medium;
+    color: darkorange;
+}
+/* Using this id only for my footer*/
+#foot{
+    color: cyan;
+    font-family: cursive;
+    font-size: 66 px;
+}
+/* Using for my texts spacing and outline*/
+p{
+    margin: 20px,;  /* Space outside*/
+    padding: 10px;  /* Space inside*/
+    border:2px dashed red; /* Visiable outline*/
+
+}
