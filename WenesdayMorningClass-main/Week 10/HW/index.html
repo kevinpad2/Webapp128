@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dream car collction — DOM Homework</title>
+  <style>
+    /* The highlight style for the main screen */
+    .carHighlight { background: #7f6b28; transition: background 200ms; }
+    /* Dark mode style  */
+    .carDark { background:#111; color:#eee; }
+    /* sets the size for the car image */
+    #carImage {
+        width: 400px;
+        height: auto;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="carTitle">Dream Car collection</h1>
+  </header>
+
+  <main id="carMain">
+    <p class="carIntro">Welcome to my dream car collection!</p>
+
+    <p id="carText"> This text will change with Javascript</p>
+
+    <!-- List target you will render into -->
+    <ul id="carList"></ul>
+
+    <!-- first image using link  -->
+    <img id="Porschepic" src="https://a.storyblok.com/f/322327/2622x716/33e9e4883a/911-gt3-rs-side.png/m/1800x492/smart/filters:format(avif)" 
+    alt="Porsche 911" />
+
+
+    <br><br>
+
+    <!-- Buttons to change the picture and  highlight -->
+    <button id="highlightButton">Toggle Highlight</button>
+    <button id="swapimageButton">Swap Image</button>
+    <button id="darkmodeButton">Change to dark mode</button>
+  </main>
+
+  <footer id="carFooter">© 2025 Kevin Padilla</footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
