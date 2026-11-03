@@ -1,0 +1,11 @@
+body {
+font-family: Arial, sans-serif;
+background: blue;
+color: green;
+padding: 1rem;
+}
+
+.dark {
+background: rgb(145, 1, 189);
+color: rgb(9, 0, 0);
+}
