@@ -38,13 +38,12 @@ emailInput.addEventListener("blur", () => {
     if (emailInput.value.trim() === "") {
         emailError.textContent = "Please enter your email.";
     }
-    else if (!emailPattern.test(emailInput.value.trim())) {
-        emailError.textContent = "Please enter a valid email address.";
-    }
-    else {
+    else if (emailPattern.test(emailInput.value.trim())) {
         emailError.textContent = "";
     }
-
+    else {
+      emailError.textContent = "Please enter a valid email address.";
+}
 });
 
 
