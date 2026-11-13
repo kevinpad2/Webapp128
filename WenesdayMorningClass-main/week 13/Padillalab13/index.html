@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 13 - Form Validation</title>
+
+    <style>
+        .error {
+            color: red;
+        }
+
+        .success {
+            color: green;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: rgb(0, 0, 31);
+            color: rgb(255, 255, 255);
+            padding: 1rem;
+            }
+/* Heading style  */ 
+        h1 {
+            text-align: center;
+            color: rgb(0, 255, 208);
+            }
+
+/* Form styling */
+        form {
+            background-color: #333;
+            padding: 20px;
+            max-width: 400px;
+            margin: auto;
+            border-radius: 10px;
+            }
+
+/* Label styling */
+        label {
+            display: block;
+            margin-top: 10px;
+            }
+
+
+/* Button styling */
+        button {
+            background-color: rgb(0, 255, 242);
+            color: black;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            }
+
+/* Hover effect */
+        button:hover {
+            background-color: white;
+        }   
+    </style>
+</head>
+<body>
+
+    <h1>Contact Form</h1>
+
+    <form id="contactForm" novalidate>
+        
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <p id="nameError" class="error"></p>
+
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <p id="emailError" class="error"></p>
+
+        
+        <label for="age">Age:</label>
+        <input type="number" id="age" placeholder="Enter your age" min="1" max="105" required>
+        <p id="ageError" class="error"></p>
+
+        
+        <button type="submit">Submit</button>
+
+    </form>
+
+    
+    <p id="successMessage" class="success"></p>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
